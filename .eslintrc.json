@@ -1,0 +1,16 @@
+{
+	"root": true,
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"project": "./tsconfig.json"
+	},
+	"env": {
+		"es2022": true
+	},
+	"extends": ["plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"],
+	"rules": {
+		"semi": ["error", "always"],
+		"prettier/prettier": 1,
+		"@typescript-eslint/no-explicit-any": 0
+	}
+}
